@@ -1,0 +1,119 @@
+* Starting client
+* Connecting to master process on port 10538
+* Analyzing classpath: 
+  - C:/Users/anaba/Downloads/commons-net-master/target/classes
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar
+  - C:\Users\anaba\Downloads\commons-net-master\target\test-classes
+  - C:\Users\anaba\Downloads\commons-net-master\target\classes
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\anaba\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0\junit-vintage-engine-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar
+  - C:\Users\anaba\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\anaba\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\ftpserver\ftpserver-core\1.2.0\ftpserver-core-1.2.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\ftpserver\ftplet-api\1.2.0\ftplet-api-1.2.0.jar
+  - C:\Users\anaba\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+  - C:\Users\anaba\.m2\repository\org\apache\mina\mina-core\2.1.6\mina-core-2.1.6.jar
+  - C:\Users\anaba\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.net.tftp.TFTPServerPathTest
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 20:16:05.800 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\anaba\Downloads\commons-net-master\.evosuite\evosuite-seeds\org.apache.commons.net.tftp.TFTPServerPathTest.seed
+* Loaded 0 tests from C:\Users\anaba\Downloads\commons-net-master\.evosuite\evosuite-seeds\org.apache.commons.net.tftp.TFTPServerPathTest.seed
+* Total number of test goals: 
+  - Line 96
+  - Branch 70
+  - Exception 0
+  - MutationFactory 97
+  - Output 0
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 70
+* Using seed 1697757359671
+* Starting evolution
+[MASTER] 20:16:05.982 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 1 seconds more than allowed.
+* Search finished after 32s and 234 generations, 9395 statements, best individual has fitness: 376.1871794871795
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 20%
+* Total number of goals: 96
+* Number of covered goals: 19
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 70
+* Number of covered goals: 8
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 12%
+* Total number of goals: 97
+* Number of covered goals: 12
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 29%
+* Total number of goals: 7
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 11%
+* Total number of goals: 70
+* Number of covered goals: 8
+* Generated 6 tests with total length 12
+* Resulting test suite's coverage: 48% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write C:\Users\anaba\AppData\Local\Temp\TFTPServerPathTest_8a0f0000-8b0f-4000-8c0f-00008d0f0000.source.txt: 1
+         write C:\Users\anaba\AppData\Local\Temp\TFTPServerPathTest_e3020000-e402-4000-a502-0000e6020000.source.txt: 1
+         write C:\Users\anaba\AppData\Local\Temp\TFTPServerPathTest_d6070000-d707-4000-9807-0000d9070000.source.txt: 1
+         and other 26 cases of action/name for this exception class
+* Writing JUnit test case 'TFTPServerPathTest_ESTest' to C:\Users\anaba\Downloads\commons-net-master\.evosuite\tmp_2023_10_19_18_26_09\tests
+* Done!
+

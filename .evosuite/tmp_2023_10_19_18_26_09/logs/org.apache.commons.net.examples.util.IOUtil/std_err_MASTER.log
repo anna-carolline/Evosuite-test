@@ -1,0 +1,5 @@
+[MASTER] 20:40:32.772 [main] ERROR ExternalProcessHandler - Class org.apache.commons.net.examples.util.IOUtil. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+
+[MASTER] 20:40:59.117 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 20:40:59.221 [main] ERROR TestGeneration - failed to write statistics data

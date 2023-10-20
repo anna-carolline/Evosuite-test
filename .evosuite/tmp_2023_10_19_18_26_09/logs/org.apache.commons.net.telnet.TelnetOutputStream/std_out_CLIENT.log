@@ -1,0 +1,120 @@
+* Starting client
+* Connecting to master process on port 11317
+* Analyzing classpath: 
+  - C:/Users/anaba/Downloads/commons-net-master/target/classes
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar
+  - C:\Users\anaba\Downloads\commons-net-master\target\test-classes
+  - C:\Users\anaba\Downloads\commons-net-master\target\classes
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\anaba\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0\junit-vintage-engine-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar
+  - C:\Users\anaba\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\anaba\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\ftpserver\ftpserver-core\1.2.0\ftpserver-core-1.2.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\ftpserver\ftplet-api\1.2.0\ftplet-api-1.2.0.jar
+  - C:\Users\anaba\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+  - C:\Users\anaba\.m2\repository\org\apache\mina\mina-core\2.1.6\mina-core-2.1.6.jar
+  - C:\Users\anaba\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar
+  - C:\Users\anaba\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.net.telnet.TelnetOutputStream
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 18:48:18.630 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\anaba\Downloads\commons-net-master\.evosuite\evosuite-seeds\org.apache.commons.net.telnet.TelnetOutputStream.seed
+* Loaded 0 tests from C:\Users\anaba\Downloads\commons-net-master\.evosuite\evosuite-seeds\org.apache.commons.net.telnet.TelnetOutputStream.seed
+* Total number of test goals: 
+  - Line 45
+  - Branch 24
+  - Exception 0
+  - MutationFactory 79
+  - Output 0
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 24
+* Using seed 1697752093290
+* Starting evolution
+* Search finished after 31s and 201 generations, 50708 statements, best individual has fitness: 58.54545454545455
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 53%
+* Total number of goals: 45
+* Number of covered goals: 24
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 24
+* Number of covered goals: 17
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 65%
+* Total number of goals: 79
+* Number of covered goals: 51
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 71%
+* Total number of goals: 24
+* Number of covered goals: 17
+* Generated 16 tests with total length 51
+* Resulting test suite's coverage: 78% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+  - java.net.SocketPermission: 
+         connect,resolve 127.0.0.1:10: 1
+         listen,resolve localhost:1926: 1
+         connect,resolve 200.42.42.0:1169: 1
+         and other 35 cases of action/name for this exception class
+* Writing JUnit test case 'TelnetOutputStream_ESTest' to C:\Users\anaba\Downloads\commons-net-master\.evosuite\tmp_2023_10_19_18_26_09\tests
+* Done!
+
